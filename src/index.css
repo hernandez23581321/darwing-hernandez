@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.padding-image{
+  margin-top: 0px;
+  border-radius: 50%;
+}
+
+.image-contact{
+  background-image: url('https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); 
+  background-size: cover;
+   background-position: center center;
+}
+.color-text{
+  color: white;
+}
+
+.navscroll {
+  background-color:purple;
+  color:yellow;
+  transition:background-color 500ms, color 500ms;
+}
+
+.navscroll.azul {
+  background-color:blue;
+  color:white;
+}
+
+.nav-item:hover{
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: blueviolet;
+
+}
+.image-fondo{
+  background-image: url('../src/img/fondo.png');
+  height: 400px;
+}
+.fondo-oscuro{
+  background-color: rgba(0, 0, 0, 0.6);
+}
